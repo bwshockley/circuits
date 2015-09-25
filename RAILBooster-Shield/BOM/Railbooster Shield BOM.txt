@@ -1,2 +1,11 @@
-Placeholder
-BOM TBD
+Railbooster Shield BOM v0.5A
+All C, R, L are estimates at this time on the schematic.  Major components listed below.
+
+Switch - RESET Switch - Panasonic EVQ-Q2 package - required force is per user.
+J1 - Power Jack DC Barrel - Sparkfun PRT-00119 (CUI INC PJ-202A)
+IC1 - H-Bridge Motor Controller - Texas Instruments LMD18200T
+IC2 - Op Amp - Texas Instruments LM358DT SO-8
+IC3 - Voltage Regulator - STMicroelectronics LD1085 D2PAK (LD1085D2T-R)
+IC4 - 555 Timer - Any Manufacturer in SOIC-8 Package
+Q1 - BJT PNP in SOT-23 configuration.
+U1 - ATTiny 44/84  No need for 8KB storage, 4KB would be fine, but either works. - Atmel ATTINY44/84
